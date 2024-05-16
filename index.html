@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>$Attack On Pump Fun</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="https://x.com/attackonpumpfun">Twitter</a>
+        </li>
+        <li>
+          <a href="https://t.me/attackonpumpfun">Telegram</a>
+        </li>
+      </ul>
+    </nav>
+
+    <img
+      src="/assets/43b3ed4c-9ad8-41b3-9e27-8904212d9edc.jpg"
+      usemap="#image-map"
+    />
+
+    <div class="overlay" id="overlay">
+      <div class="startwrap" id="startwrap">
+        <button id="startButton">
+          click
+          <img src="/assets/yes_.png" alt="" />
+        </button>
+      </div>
+      <video playsinline id="video" src="/assets/AOP.mov.mp4"></video>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
+      integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/rwdImageMaps.js"></script>
+    <script>
+      $(document).ready(function (e) {
+        $("img[usemap]").rwdImageMaps();
+      });
+    </script>
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>
